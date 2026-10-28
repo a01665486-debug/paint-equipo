@@ -11,13 +11,10 @@ Fuente original: Grant Jenks http://www.grantjenks.com/docs/freegames/paint.html
 
 Funcionalidades:
 
-1. Color nuevo (Diego)(pendiente)
-2. Dibujar un círculo (Diego)(pendiente)
+1. Color nuevo (Diego)(hecho)
+2. Dibujar un círculo (Diego)(hecho)
 3. Completar el rectángulo (Yerik)(hecho)
-1. Color nuevo (Diego)(Hecho)
-2. Dibujar un círculo (Diego)(Hecho)
-3. Completar el rectángulo (Yerik)(pendiente)
-4. Completar el triángulo (Yerik)(pendiente)
+4. Completar el triángulo (Yerik)(hecho)
 
 Instrucciones para crear y activar el ambiente:
 
@@ -39,7 +36,6 @@ Se implementó la función rectangle(start, end) para dibujar rectángulos utili
 * El primer clic establece una esquina del rectángulo.
 * El segundo clic establece la esquina opuesta.
 
-
 Presiona K para negro
 Presiona W para blanco
 presiona G para verde
@@ -47,4 +43,8 @@ Presiona B para azul
 Presiona R para rojo
 Presiona P para morado
 
-
+Se implementó la función triangle(start, end) para dibujar triángulos utilizando dos puntos.
+* Se activa presionando la tecla t.
+* El primer clic establece el punto inicial.
+* El segundo clic establece el punto final.
+* Se unen los tres vértices para formar el triángulo.
